@@ -5,6 +5,9 @@ import pprint
 import re
 import sys
 
+# This is really ugly code writtin in like 30 minutes, there are not best
+# practices here.
+
 def strip_htmltags(txt):
     return re.sub('<[^<]+?>', '', txt)
 
